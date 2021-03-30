@@ -347,7 +347,7 @@ class _HomePageState extends State<HomePage> {
   _textInfo() {
     return Text(
       _infoText,
-      textAlign: TextAlign.left,
+      textAlign: TextAlign.center,
       style: TextStyle(color: Colors.black, fontSize: 15.0),
     );
   }
@@ -358,7 +358,7 @@ class _HomePageState extends State<HomePage> {
   _textInfo() {
     return Text(
       _infoText,
-      textAlign: TextAlign.center,
+      textAlign: TextAlign.left,
       style: TextStyle(color: Colors.black, fontSize: 15.0),
     );
   }
